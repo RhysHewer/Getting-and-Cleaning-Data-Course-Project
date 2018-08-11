@@ -5,13 +5,13 @@ date: "10 August 2018"
 output: html_document
 ---
 
-#Data
+# Data
 
 tidy_data.txt is a data set stored as a text file, separated by tabs
 
 See the README.Rmd file for further information
 
-#Variables
+# Variables
 
 * subject
 
@@ -23,7 +23,7 @@ Activity undertaken whilst measurements taken:
 
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-##Measurements
+## Measurements
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -149,7 +149,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 
 
-#Data Manipulation
+# Data Manipulation
  
 * Training and test datasets were merged
 * Features used as column names but each feature given unique name to avoid non-unique names
